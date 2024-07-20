@@ -1,38 +1,152 @@
-.App {
-  text-align: center;
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #33049F;
+  color: rgba(255,255,255,0.9);
+  font-weight: 500;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.section {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  padding: 3rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  width: 90%;
+  max-width: 1500px;
+  height: 100%;
+}
+
+.toolbar {
+  background-color: black;
+}
+
+/* .w-488 {
+  width: 488px;
+} */
+
+.u-display-flex {
   display: flex;
+}
+
+.u-flex-col {
   flex-direction: column;
+}
+
+.u-flex-align-center {
   align-items: center;
+}
+
+.u-flex-justify-center {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.u-flex-justify-end {
+  justify-content: end;
+}
+
+.u-gap-1 {
+  gap: 1em;
+}
+
+.u-gap-2 {
+  gap: 2em;
+}
+
+.u-gap-0\.25 {
+  gap: 0.25em;
+}
+
+.u-gap-0\.8 {
+  gap: 0.8em;
+}
+
+.u-gap-0\.4 {
+  gap: 0.4em;
+}
+
+.u-position-absolute {
+  position: absolute;
+}
+
+.u-left-1\/2 {
+  left: 50%;
+}
+
+.u-bottom-25 {
+  bottom: 25rem;
+}
+
+.u-translateX-1\/2 {
+  transform: translateX(-50%);
+}
+
+.u-p-0\.5 {
+  padding: 0.5em;
+}
+
+.u-pl-0\.2 {
+  padding: 0.2em;
+}
+
+.u-pt-0\.2 {
+  padding-top: 0.2em; 
+}
+
+.u-pt-0\.5 {
+  padding-top: 0.5em;
+}
+
+.u-pb-0\.75 {
+  padding-bottom: 0.75em; 
+}
+
+.u-pb-0\.5 {
+  padding-bottom: 0.5em; 
+}
+
+.u-flex-grow {
+  flex-grow: 1;
+}
+
+.u-white-space-nowrap {
+  white-space: nowrap;
+}
+
+.u-font-weight-400 {
+  font-weight: 400;
+}
+
+.u-overflow-hidden {
+  overflow: hidden;
+}
+
+.u-border-radius-1 {
+  border-radius: 1em;
+}
+
+.circle-divider {
+  width: 2px;
+  height: 2px;
+  background-color: white;
+}
+
+.btn {
+  cursor: pointer;
+  border: transparent;
   color: white;
+  background-color: #B5179E;
+  font-size: 1rem;
+  padding: 0.4em 0.3em;
+  border-radius: 0.5em;
+  white-space: nowrap;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
